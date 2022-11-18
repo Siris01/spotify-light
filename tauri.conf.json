@@ -1,0 +1,17 @@
+{
+	"package": {
+		"productName": "spotify-light",
+		"version": "0.1.0"
+	},
+	"tauri": {
+		"allowlist": {
+			"fs": {
+				"all": true,
+				"scope": ["$APP/*", "$DESKTOP/*"]
+			},
+			"path": {
+				"all": true
+			}
+		}
+	}
+}
